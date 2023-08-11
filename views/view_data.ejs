@@ -1,18 +1,14 @@
- <!-- <div id="container">
-    <form  action="/jsonAsForm" Method="GET">
-        <% Object.entries(parsedData).forEach(([key, value]) => { %>
+
+ 
+<div id="container">
+  <form action="jsonAsForm" Method="GET">
+     <% Object.entries(parsedData).forEach(([key, value]) =>{%>
           <label for="<%= key %>"><%= key %></label>
-          <input type="text" id="<%= key %>" name="<%= key %>" value="<%= value %>"><br>
-        <% }); %>
-      </form>
- </div>
+          <input type="text" id="<%= key %>" name="<%= key %>" value="<%= value%>"><br>
+      <% });%> 
+  </form>
+</div> 
 
 
- <div id="container">
-    <form action="jsonAsForm" Method="GET">
-        <% for(let [key,value] of object.entries(parsedData)){%>
-            <lable for="<%= key %>"><%= key %></lable>
-            <input type="text" id="<% =key %>" name="<%= key %>" value="<%= value%>"><br>
-        <% }));%>
-    </form>
- </div>
+ 
+
