@@ -1,0 +1,12 @@
+#container{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    background-color: #f8f8f8; 
+    }
+
+    #container form input[type="text"] {
+        padding: 10px 20px;
+        border: 5px solid black; 
+      } 
